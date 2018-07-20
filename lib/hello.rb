@@ -4,8 +4,7 @@ def hello_t(array)
     yield(array[count])
     count += 1
   end
-
-
+  array
 end
 
 # call your method here!
